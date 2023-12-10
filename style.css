@@ -1,0 +1,134 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center top;
+    font-family: sans-serif;
+}
+
+.background-image{
+    position: relative;
+    height: 100%;
+    background-image:url(background.jpeg);
+
+}
+
+
+
+.header-main{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    background-color: yellow;
+    display:flex;
+}
+
+.header-main-logo img{
+    height:80px;
+
+}
+
+.header-main-nav{
+    width:fit-content;
+    height: 100%;
+    background-color:#fff;
+}
+
+.header-main-nav ul{
+    list-style: none; 
+    margin-left: 20px;
+}
+
+.header-main-nav ul li{
+    display: inline;
+    float: left;
+    margin-right: 80px;
+    font-size:20px;
+}
+
+.header-main-nav ul li a{
+    line-height: 40px;
+}
+
+
+.header-main-sm{
+    width: fit-content;
+    height: 100%;
+    background-color:#fff;
+    display: flex;
+    padding-right: 60px;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header-main-sm-fb{
+    width: 20px;
+    height:20px;
+    background-image: url(facebook1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.header-main-sm-in{
+    width: 20px;
+    height:20px;
+    background-image: url(instagram1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-x{
+    width: 20px;
+    height:20px;
+    background-image: url(twitter1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-yt{
+    width: 20px;
+    height:20px;
+    background-image: url(youtube1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+ cursor: pointer;   
+ text-decoration: none;
+}
+
+a:hover{
+    text-decoration: bold;
+}
+
+.background-image{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.front-text{
+    text-align: center;
+}
+
+.front-text h1{
+    font-size:300px;
+    -webkit-text-stroke: 2px#fff;
+
+}
+
+.front-text h2{
+    font-size:150px;
+    font-style:italic;
+    background-color: #58d69b;
+    display: inline-block;
+}
