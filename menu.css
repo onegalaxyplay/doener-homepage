@@ -1,0 +1,155 @@
+body {
+    background-image: url(bilder/menu-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.header-main {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+}
+
+.header-main-logo img {
+    height: 80px;
+
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    background-color: #fff;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.header-main-nav ul li a {
+    line-height: 40px;
+}
+
+
+.header-main-sm {
+    width: fit-content;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    padding-right: 60px;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header-main-sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(bilder/facebook1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.header-main-sm-in {
+    width: 20px;
+    height: 20px;
+    background-image: url(bilder/instagram1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-x {
+    width: 20px;
+    height: 20px;
+    background-image: url(bilder/twitter1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main-sm-yt {
+    width: 20px;
+    height: 20px;
+    background-image: url(bilder/youtube1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: bold;
+}
+
+.background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.white-background-block {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 80px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    order: 3;
+}
+
+.Gerichte-essen {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.gericht {
+    flex-basis: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.gericht img {
+    width: 100%;
+}
+
+.beilagen{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.beilage{
+    flex-basis: 33%;
+    padding: 10px;
+    box-sizing: border-box;  
+}
+
+.beilage img{
+    width:100%;
+}
+

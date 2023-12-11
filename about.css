@@ -1,8 +1,8 @@
 body {
-    background-image: url(bilder/background.jpg);
+    background-image: url(bilder/about.png);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center top;
+    background-position: center;
     font-family: sans-serif;
     height:100vh;
 }
@@ -108,20 +108,18 @@ a:hover{
     background-position: center;
 }
 
-.front-text{
+.white-background-block{
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 80px;
+    background-color: white;
+}
+.überschrift{
     text-align: center;
 }
-
-.front-text h1{
-    font-size:300px;
-    -webkit-text-stroke: 2px#fff;
+.text{
+    padding:1em;
+    text-align:center;
+    border: 2px solid #000;
 }
-
-.front-text h2{
-    font-size:150px;
-    font-style:italic;
-    background-color: #58d69b;
-    display: inline-block;
-}
-
-

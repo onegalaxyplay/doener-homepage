@@ -1,5 +1,5 @@
 body {
-    background-image: url(bilder/background.jpg);
+    background-image: url(bilder/standort.png);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center top;
@@ -108,6 +108,12 @@ a:hover{
     background-position: center;
 }
 
+.white-backround-block {
+    padding-top: 32px;
+    width: 800px;
+    margin: auto;
+}
+
 .front-text{
     text-align: center;
 }
@@ -123,5 +129,25 @@ a:hover{
     background-color: #58d69b;
     display: inline-block;
 }
+
+.white-background-block{
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 80px;
+    background-color: white;
+}
+
+
+summary{
+    text-decoration: bold;
+    cursor: pointer;
+    padding: 1em;
+    margin-bottom: 1em;
+    background: rgb(109, 120, 187);
+}
+
+
+
 
 
